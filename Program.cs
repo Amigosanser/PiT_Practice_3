@@ -13,6 +13,6 @@ static int Fibonacci(int n)
         n1 = n2;
         n2 = sum;
     }
-
+    //proverka
     return n == 0 ? n1 : n2;
 }
