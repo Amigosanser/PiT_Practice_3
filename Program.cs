@@ -1,8 +1,9 @@
-﻿int result = Fibonacci(10);
+﻿int result = Fibonacci(5);
 Console.WriteLine(result);
 
 static int Fibonacci(int n)
 {
+    Console.WriteLine("The output is: ");
     int n1 = 0;
     int n2 = 1;
     int sum;
